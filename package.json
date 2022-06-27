@@ -1,0 +1,27 @@
+{
+  "name": "build-tooling-evals",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbdm44/build-tooling-evals.git"
+  },
+  "author": "lbdm44",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lbdm44/build-tooling-evals/issues"
+  },
+  "homepage": "https://github.com/lbdm44/build-tooling-evals#readme",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
